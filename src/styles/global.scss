@@ -1,0 +1,30 @@
+@import "./functions/functions";
+@import "./variables/variables";
+@import "./mixins/mixins";
+@import "./placeholders/placeholders";
+
+@import "./pages/accueil";
+@import "pagelist";
+@import "pagedetail";
+@import "_cards";
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: rgba(64, 104, 156, 0.473);
+  color: white;
+  margin: 0;
+}
+
+.header {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 90vw;
+}
+
+.title {
+  font-size: 5vh;
+}

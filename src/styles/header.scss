@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header .title {
+  color: red;
+}
+
+.header #search-bar {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header .search {
+  height: 4vh;
+  width: 20vw;
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}

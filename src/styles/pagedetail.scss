@@ -1,0 +1,109 @@
+.article {
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .main-image {
+    margin-top: 3vw;
+    width: 100vw;
+  }
+  
+  .ratings {
+    font-size: 3vh;
+    margin-top: 5vh;
+  }
+  
+  h3 span {
+    margin-top: 1vh;
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  .first-row {
+    width: 86vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .release-date {
+    width: 25%;
+  }
+  
+  .developers {
+    width: 25%;
+  }
+  
+  .platforms {
+    width: 25%;
+  }
+  
+  .publishers {
+    width: 25%;
+  }
+  
+  .second-row {
+    width: 84vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tags {
+    width: 50%;
+  }
+  
+  .genres {
+    width: 50%;
+  }
+  
+  .buy-section .title {
+    color: red;
+    margin-bottom: 2vh;
+  }
+  
+  .stores {
+    margin-top: 0;
+  }
+  
+  .stores a {
+    display: block;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+    margin-bottom: 1vh;
+  }
+  
+  .screenshots .pictures {
+    margin-left: 1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .screenshots .title {
+    color: red;
+  }
+  
+  .pictures .screenshot {
+    width: 40vw;
+    margin-bottom: 4vh;
+  }
+  
+  .similar .title {
+    color: red;
+  }
+  
+  .main-image-div {
+    position: relative;
+  }
+  
+  .main-image-div .check-website {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+  
